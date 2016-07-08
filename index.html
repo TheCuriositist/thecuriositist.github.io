@@ -2,15 +2,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css" />
+        <script src="mainMenu.js"></script>
     </head>
     <body>
-        <button onclick="getElementById('sidebar')">Menu</button>
         <div class="container">
+            
+            
             <div id="sidebar">
-                <iframe href="dropdown.html"></iframe>
-                <a href="index.html" style="text-decoration:none">Home</a>
-                <br>
-                <a href="twine_games.html" style="text-decoration:none">Twine Games</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Menu</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="twine_games.html">Twine Games</a>
+                    </div>
+                </div>
             </div>
             <div id="header"></div>
                 <h1>The Curiositist</h1>
