@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="mainMenu.js"></script>
+        <link rel="stylesheet" href="containerStyles.css" type="text/css" />
+        <script src="dropdown.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div id="sidebar">
-                <div class="dropdown">
-                    <button onclick="myMenu()" class="dropbtn">Menu</button>
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="index.html">Home</a>
-                        <a href="twine_games.html">Twine Games</a>
-                    </div>
+    
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li class="dropdown">
+                <button onclick="myMenu()" class="dropbtn">Projects</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="twine.html">Twine</a>
+                    <a href="#programming">Programming</a>
                 </div>
-            </div>
-            <div id="header"></div>
-                <h1>The Curiositist</h1>
-            <div id="content"></div>
-                <p>Website Description</p>
-            <div id="footer"></div>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+        </ul>
+    
+        <div id="textbody" style="padding:20px;margin-top:30px;height:1500px;">
+            <h1>Fixed Top Navigation Bar</h1>
+            <h2>Scroll this page to see the effect</h2>
+            <h2>The navigation bar will stay at the top of the page while scrolling</h2>
         </div>
     
     </body>
