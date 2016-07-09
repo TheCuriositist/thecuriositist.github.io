@@ -63,7 +63,8 @@ body {margin:0; background-color: #E6E6E6}
 .footerList li:last-child {
     border-right: none;
 }
-#homeImage img{
+img{
+    max-width: 100%;
+    height:100%;
     width:100%;
-    height: 100%;
 }
