@@ -3,33 +3,52 @@
     font-family: 'Fredericka the Great', cursive;
 }
 
-body {margin:0; background-color: #E6E6E6}
+body {margin:0;background-color: #424242}
+p{
+    color: #DEDEDE;
+}
+
+h2{
+    color: #DEDEDE;
+}
+#music{
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+.indexHeaders{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+h4{
+    color: #595940;
+    margin-bottom: 5px;
+}
         
-        .tabs ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #5C5C5C;
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-        
-        .tabs li {
-            float:left;
-        }
-        .tabs li:last-child {
-            border-right: none;
-        }
-        
-        .tabs li a:hover:not(.active) {
-            background-color: #333333;
-        }
-        
-        .active {
-            background-color: #4CAF50;
-        }
+.tabs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5C5C5C;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.tabs li {
+    float:left;
+}
+.tabs li:last-child {
+    border-right: none;
+}
+
+.tabs li a:hover:not(.active) {
+    background-color: #333333;
+}
+
+.active {
+    background-color: #4CAF50;
+}
 .bodyCenterClass{
     text-align: center;
 }
@@ -45,12 +64,13 @@ body {margin:0; background-color: #E6E6E6}
     padding: 0;
     overflow: hidden;
     background-color: white;
-    width: 100%;
+    width: 64%;
 }
     
 .footerList li {
     display:inline-block;
     text-align: left;
+    margin-bottom: 10px;
 }
 .footerList li:last-child {
     border-right: none;
@@ -64,6 +84,21 @@ img {
     margin-bottom: -20px;
     margin-top:30px;
 }
+.indexContent ul {
+    list-style: none;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    display:block;
+}
+.indexContent li {
+    display: inline-block;
+}
+.indexContent li:last-child {
+    border-right: none;
+}
 
 @media screen and (min-width: 800px){
     .tabs li a {
@@ -74,6 +109,10 @@ img {
         font-size: 16px;
         text-decoration: none;
     }
+    .indexContent ul{
+        margin: auto;
+        width: 40%;
+    }
 }
 @media screen and (max-width: 800px){
     .tabs li a {
@@ -83,5 +122,9 @@ img {
         padding: 18px; 16px;
         text-decoration: none;
         font-size: 20px;
+    }
+    .indexContent ul{
+        margin: auto;
+        width: 80%;
     }
 }
