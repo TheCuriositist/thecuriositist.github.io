@@ -64,13 +64,14 @@ h4{
     padding: 0;
     overflow: hidden;
     background-color: white;
-    width: 64%;
+    width: 60%;
 }
     
 .footerList li {
-    display:inline-block;
+    float: left;
     text-align: left;
     margin-bottom: 10px;
+    margin-left: 2%;
 }
 .footerList li:last-child {
     border-right: none;
@@ -87,44 +88,46 @@ img {
 .indexContent ul {
     list-style: none;
     list-style-type: none;
-    margin: auto;
     padding: 0;
     overflow: hidden;
     text-align: center;
     display:block;
+    width: 100%;
 }
 .indexContent li {
     display: inline-block;
+    width: 100%;
 }
 .indexContent li:last-child {
     border-right: none;
 }
 
-@media screen and (min-width: 800px){
-    .tabs li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px; 16px;
-        font-size: 16px;
-        text-decoration: none;
-    }
-    .indexContent ul{
-        margin: auto;
-        width: 40%;
-    }
+.tabs li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px; 16px;
+    font-size: 16px;
+    text-decoration: none;
 }
-@media screen and (max-width: 800px){
-    .tabs li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 18px; 16px;
-        text-decoration: none;
-        font-size: 20px;
-    }
-    .indexContent ul{
-        margin: auto;
-        width: 80%;
-    }
+.indexContent ul{
+    margin: auto;
+    width: 40%;
+}
+
+.media{
+    display: block;
+    text-align: center;
+}
+
+.media ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.media li{
+    margin-top: 50px;
+    width:100%;
 }
