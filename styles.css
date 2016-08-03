@@ -64,12 +64,6 @@ img {
     width:50%;
 }
 
-.backgrounds body{
-    background: url("Web/Images/guitar_and_slide.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
 .indexContent ul {
     list-style: none;
     list-style-type: none;
@@ -115,4 +109,8 @@ img {
 .media li{
     margin-top: 50px;
     width:100%;
+}
+.imageText{
+    display: block;
+    padding: 0;
 }
