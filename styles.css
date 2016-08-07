@@ -110,7 +110,15 @@ img {
     margin-top: 50px;
     width:100%;
 }
-.imageText{
+
+.aboutContainer{
     display: block;
-    padding: 0;
+    width: 100%;
+    margin:auto;
+    position: absolute;
+}
+
+.imageText{
+    margin: auto;
+    width:60%;
 }
