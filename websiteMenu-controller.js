@@ -1,6 +1,11 @@
 //jshint esversion: 7
 let footerLoad = function(){
-  let footer = "Copyright Seiji Furukawa, 2020 <br>All Rights Reserved";
+  let footer = `
+  <div class="col-md-12">
+    <hr />
+    <p>Copyright Seiji Furukawa, 2020 <br>All Rights Reserved<p/>
+  <div/>
+  `;
   divElem = document.querySelector("#pageFooter");
   divElem.innerHTML = footer;
 };
